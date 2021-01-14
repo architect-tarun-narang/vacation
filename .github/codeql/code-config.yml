@@ -1,0 +1,6 @@
+name: "Extended security and code quality queries"
+
+disable-default-queries: false
+
+queries:
+  - uses: security-and-quality

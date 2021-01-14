@@ -1,0 +1,72 @@
+2020-05-20 14:51:22.3555||INFO|Vacations.API.Program|######### Initialize Application ########## 
+2020-05-20 18:50:41.2404||INFO|Vacations.API.Program|######### Initialize Application ########## 
+2020-05-20 18:51:31.6794|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Vacations.API.Contracts.Services.Leaves.IEmployeeLeavesService' while attempting to activate 'Vacations.API.Controllers.Leaves.EmployeeLeavesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-05-20 18:52:01.5686|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Vacations.API.Contracts.Services.Leaves.IEmployeeLeavesService' while attempting to activate 'Vacations.API.Controllers.Leaves.EmployeeLeavesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-05-20 18:55:28.7213||INFO|Vacations.API.Program|######### Initialize Application ########## 
+2020-05-20 19:03:01.8138|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.Exception: Vacations.API.Contexts.DapperVacationContext.WithConnection() experienced a SQL exception (not a timeout) ---> System.Data.SqlClient.SqlException: Must declare the scalar variable "@EmployeeId".
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at Vacations.API.Core.Repositories.BaseRespository`1.<>c__DisplayClass2_0.<<GetAllEntitiesAsync>b__0>d.MoveNext() in C:\Projects\VacationManagement\Vacations.API\Core\Repositories\BaseRepository.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at Vacations.API.Contexts.DapperVacationContext.WithConnection[T](Func`2 executeQuery) in C:\Projects\VacationManagement\Vacations.API\Contexts\DapperVacationContext.cs:line 84
+   --- End of inner exception stack trace ---
+   at Vacations.API.Contexts.DapperVacationContext.WithConnection[T](Func`2 executeQuery) in C:\Projects\VacationManagement\Vacations.API\Contexts\DapperVacationContext.cs:line 99
+   at Vacations.API.Core.Repositories.BaseRespository`1.GetAllEntitiesAsync(String sQuery) in C:\Projects\VacationManagement\Vacations.API\Core\Repositories\BaseRepository.cs:line 28
+   at Vacations.API.Core.Repositories.Leaves.EmployeeLeavesRepository.GetEmployeeLeavesAsync(EmployeeLeavesEntity employeeLeavesEntity) in C:\Projects\VacationManagement\Vacations.API\Core\Repositories\Leaves\EmployeeLeavesRepository.cs:line 25
+   at Vacations.API.Core.Services.Leaves.EmployeeLeavesService.GetEmployeeLeavesByDate(EmployeeLeavesDateDTO employeeLeavesDateDTO) in C:\Projects\VacationManagement\Vacations.API\Core\Services\Leaves\EmployeeLeavesService.cs:line 31
+   at Vacations.API.Controllers.Leaves.EmployeeLeavesController.GetEmployeeLeavesByDate(EmployeeLeavesDateDTO employeeLeavesDateDTO) in C:\Projects\VacationManagement\Vacations.API\Controllers\Leaves\EmployeeLeavesController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-05-20 19:05:54.1084||INFO|Vacations.API.Program|######### Initialize Application ########## 
+2020-05-20 19:09:04.8795||INFO|Vacations.API.Program|######### Initialize Application ########## 
+2020-05-20 19:23:40.0187||INFO|Vacations.API.Program|######### Initialize Application ########## 
+2020-05-20 19:25:11.6888||INFO|Vacations.API.Program|######### Initialize Application ########## 
+2020-05-20 19:39:32.9531||INFO|Vacations.API.Program|######### Initialize Application ########## 
+2020-05-20 19:46:25.5068||INFO|Vacations.API.Program|######### Initialize Application ########## 
+2020-05-20 20:11:36.8132||INFO|Vacations.API.Program|######### Initialize Application ########## 

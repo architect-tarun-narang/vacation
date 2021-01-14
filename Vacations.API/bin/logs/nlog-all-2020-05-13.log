@@ -1,0 +1,14 @@
+2020-05-13 12:41:09.7598||INFO|Vacations.API.Program|######### Initialize Application ########## 
+2020-05-13 12:42:22.8926||FATAL|Vacations.API.Controllers.EmployeeController|@@@@ Exception while retriving Employees for Id = 48013 
+2020-05-13 12:42:25.1519|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLVN1JS7CF59", Request id "0HLVN1JS7CF59:00000001": An unhandled exception was thrown by the application. System.NotImplementedException: The method or operation is not implemented.
+   at Vacations.API.Contexts.DapperVacationContext.Dispose() in C:\Projects\VacationManagement\Vacations.API\Contexts\DapperVacationContext.cs:line 106
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.Dispose()
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesFeature.Dispose()
+   at Microsoft.AspNetCore.Http.HttpResponse.<>c.<.cctor>b__30_1(Object disposable)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FireOnCompletedAwaited(Stack`1 onCompleted)
+2020-05-13 12:44:24.2563|13|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLVN1JS7CF5A", Request id "0HLVN1JS7CF5A:00000001": An unhandled exception was thrown by the application. System.NotImplementedException: The method or operation is not implemented.
+   at Vacations.API.Contexts.DapperVacationContext.Dispose() in C:\Projects\VacationManagement\Vacations.API\Contexts\DapperVacationContext.cs:line 106
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.Dispose()
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesFeature.Dispose()
+   at Microsoft.AspNetCore.Http.HttpResponse.<>c.<.cctor>b__30_1(Object disposable)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FireOnCompletedAwaited(Stack`1 onCompleted)

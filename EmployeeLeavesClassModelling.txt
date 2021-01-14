@@ -1,0 +1,67 @@
+Employee Vacation
+
+API's
+1. Get Employees leaves depending upon the vacation type.
+	GetEmployeeLeaves(EmployeeId, VacationType, DateFrom, DateTo)
+	GetEmployeeLeaves(EmployeeId, VacationType, Month)
+	
+	GetAllEmployeeLeaves(VacationType, DateFrom, DateTo)
+	GetAllEmployeeLeaves(VacationType, Month)
+
+2. Add Employee leaves details:-
+	AddEmployeeLeaves(EmployeeId, VacationType, DateFrom, DateTo)
+
+3. Update Employee leaves details:-
+	UpdateEmployeeLeaves(EmployeeId, VacationType, DateFrom, DateTo)
+
+4. Delete Employee leaves details:-
+	deleteEmployeeLeaves(EmployeeId, VacationType, DateFrom, DateTo)
+
+Write Classes
+Controllers
+	Leaves
+		EmployeeLeavesController
+			// Create a DTO called EmployeeLeavesDateDTO - EmployeeId, VacationType, DateFrom, DateTo
+			public async Task<IActionResult> GetEmployeeLeavesByDate(EmployeeLeavesDateDTO)
+
+			// Create a DTO called EmployeeLeavesMonthDTO - EmployeeId, VacationType, Month
+			public async Task<IActionResult> GetEmployeeLeavesByMonth(EmployeeLeavesMonthDTO)
+			
+			// Create a DTO called EmployeeLeavesDateDTO - VacationType, DateFrom, DateTo			
+			public async Task<IActionResult> GetAllEmployeeLeavesByDate(EmployeeLeavesDateDTO)
+
+			// Create a DTO called EmployeeLeavesMonthDTO - VacationType, Month
+			public async Task<IActionResult> GetAllEmployeeLeavesByMonth(EmployeeLeavesMonthDTO)
+			
+		
+		EmployeeLeavesAddController
+		EmployeeLeavesUpdateController
+		EmployeeLeavesDeleteController
+Services
+	Leaves
+		EmployeeLeavesService
+			// It can return multiple rows, even from a same month
+			public async Task<IEnumerable<EmployeeLeavesDTO>> GetEmployeeLeavesByDate(EmployeeLeavesDateDTO)
+			public async Task<IEnumerable<EmployeeLeavesDTO>> GetEmployeeLeavesByMonth(EmployeeLeavesMonthDTO)
+				//Add a logic to convert Month into DateFrom and DateTo and further call Repository method - GetEmployeeLeavesAsync(EmployeeLeavesEntity)
+			public async Task<IEnumerable<IEnumerable<<EmployeeLeavesDTO>>> GetAllEmployeeLeaves(VacationType, DateFrom, DateTo)
+			public async Task<IEnumerable<IEnumerable<<EmployeeLeavesDTO>>> GetAllEmployeeLeaves(VacationType, Month)
+	
+		EmployeeLeavesAddService
+		EmployeeLeavesUpdateService
+		EmployeeLeavesDeleteService
+Repository	
+	Leaves
+		EmployeeLeavesRepository
+			//EmployeeId, VacationType, DateFrom, DateTo	
+			public async Task<IEnumerable<EmployeeLeavesEntity>> GetEmployeeLeavesAsync(EmployeeLeavesEntity)
+			//--public async Task<IEnumerable<EmployeeLeavesDTO>> GetEmployeeLeavesByMonthAsync(EmployeeId, VacationType, Month)
+
+			public async Task<IEnumerable<IEnumerable<<EmployeeLeavesEntity>>> GetEmployeeLeavesAsync(EmployeeLeavesEntity)
+			//--public async Task<IEnumerable<IEnumerable<<EmployeeLeavesDTO>>> GetEmployeeLeavesByMonthAsync(VacationType, Month)
+			
+		EmployeeLeavesAddRepository
+		EmployeeLeavesUpdateRepository
+		EmployeeLeavesDeleteRepository
+
+			

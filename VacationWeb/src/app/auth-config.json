@@ -1,0 +1,16 @@
+{
+  "credentials": {
+    "clientId": "3421c6ef-0d2e-44bd-8ce6-2f45b9e836dc",
+    "tenantId": "4a95f16f-35ba-4a52-9cb3-7f300cdc0c60"
+  },
+  "configuration": {
+    "redirectUri": "http://localhost:4200/",
+    "postLogoutRedirectUri": "http://localhost:4200"
+  },
+  "resources": {
+    "VacationApi": {
+      "resourceUri": "https://localhost:44385/api/todolist",
+      "resourceScopes": [ "api://3421c6ef-0d2e-44bd-8ce6-2f45b9e836dc/access_as_user" ]
+    }
+  }     
+}

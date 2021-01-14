@@ -1,0 +1,12 @@
+curl --header "X-Vault-Token: $VAULT_TOKEN" --request POST --data '{ "type":"kv-v2" }' http://127.0.0.1:8200/v1/sys/mounts/secret
+curl --header "X-Vault-Token: s.KDCsKeoWfVIsju9VGTQ6u8tp" --request POST --data '{ "type":"kv-v2" }' http://127.0.0.1:8200/v1/secret/data/key1
+
+curl --header "X-Vault-Token: s.KDCsKeoWfVIsju9VGTQ6u8tp" --request POST --data @marvin.json http://127.0.0.1:8200/v1/secret/data/marvin
+
+curl --header "X-Vault-Token: s.KDCsKeoWfVIsju9VGTQ6u8tp"  http://127.0.0.1:8200/v1/secret/data/marvin | jq
+
+
+curl --header "X-Vault-Token: s.KDCsKeoWfVIsju9VGTQ6u8tp" --request POST --data @marvin.json http://127.0.0.1:8200/v1/secret/data/marvin
+Employee
+curl --header "X-Vault-Token: s.KDCsKeoWfVIsju9VGTQ6u8tp" --request POST --data @emp.json http://127.0.0.1:8200/v1/secret/data/vacation/empkey
+

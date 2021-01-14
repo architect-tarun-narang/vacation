@@ -1,0 +1,1474 @@
+2020-07-24 13:23:38.8574 Info Message Template Auto Format enabled
+2020-07-24 13:23:38.9021 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-24 13:23:39.4280 Info Adding target FileTarget(Name=alllogfile)
+2020-07-24 13:23:39.4845 Info Adding target FileTarget(Name=ownFile-web)
+2020-07-24 13:23:39.6867 Info Found 45 configuration items
+2020-07-24 13:27:01.4744 Info Message Template Auto Format enabled
+2020-07-24 13:27:01.7808 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-24 13:27:02.9629 Info Adding target FileTarget(Name=alllogfile)
+2020-07-24 13:27:02.9886 Info Adding target FileTarget(Name=ownFile-web)
+2020-07-24 13:27:03.1853 Info Found 45 configuration items
+2020-07-24 14:43:01.8705 Info Message Template Auto Format enabled
+2020-07-24 14:43:02.1378 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-24 14:43:02.9577 Info Adding target FileTarget(Name=alllogfile)
+2020-07-24 14:43:03.0403 Info Adding target FileTarget(Name=ownFile-web)
+2020-07-24 14:43:04.0389 Error Exception when parsing C:\Projects\Temp\Backups\22-July\VacationManagement\Vacations.API\bin\Debug\netcoreapp2.2\nlog.config.  Exception: System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-07-24 14:43:04.0432 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing C:\Projects\Temp\Backups\22-July\VacationManagement\Vacations.API\bin\Debug\netcoreapp2.2\nlog.config.  ---> System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-07-24 14:43:04.2805 Info Found 42 configuration items
+2020-07-24 14:44:40.9354 Info Message Template Auto Format enabled
+2020-07-24 14:44:40.9812 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-24 14:45:02.3960 Info Message Template Auto Format enabled
+2020-07-24 14:45:02.5748 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-24 14:45:02.9205 Info Adding target FileTarget(Name=alllogfile)
+2020-07-24 14:45:02.9524 Info Adding target FileTarget(Name=ownFile-web)
+2020-07-24 14:45:03.1716 Error Exception when parsing C:\Projects\Temp\Backups\22-July\VacationManagement\Vacations.API\bin\Debug\netcoreapp2.2\nlog.config.  Exception: System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-07-24 14:45:03.1716 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing C:\Projects\Temp\Backups\22-July\VacationManagement\Vacations.API\bin\Debug\netcoreapp2.2\nlog.config.  ---> System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-07-24 14:45:03.2501 Info Found 42 configuration items
+2020-07-24 19:44:57.4323 Info Message Template Auto Format enabled
+2020-07-24 19:44:57.5117 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-24 19:44:57.8535 Info Adding target FileTarget(Name=alllogfile)
+2020-07-24 19:44:57.8809 Info Adding target FileTarget(Name=ownFile-web)
+2020-07-24 19:44:57.8908 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-07-24 19:44:57.8908 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-07-24 19:44:57.8908 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-07-24 19:44:57.9072 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-07-24 19:44:57.9072 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-24 19:44:57.9481 Info Found 45 configuration items
+2020-07-24 19:47:53.4489 Info Message Template Auto Format enabled
+2020-07-24 19:47:53.4823 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-24 19:47:54.0697 Info Adding target FileTarget(Name=alllogfile)
+2020-07-24 19:47:54.0877 Info Adding target FileTarget(Name=ownFile-web)
+2020-07-24 19:47:54.1020 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-07-24 19:47:54.1020 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-07-24 19:47:54.1020 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-07-24 19:47:54.1255 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-07-24 19:47:54.1255 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-24 19:47:54.1731 Info Found 45 configuration items
+2020-07-27 16:21:23.0495 Info Message Template Auto Format enabled
+2020-07-27 16:21:23.1205 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-27 16:21:23.5190 Info Adding target FileTarget(Name=alllogfile)
+2020-07-27 16:21:23.5610 Info Adding target FileTarget(Name=ownFile-web)
+2020-07-27 16:21:23.5774 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-07-27 16:21:23.5774 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-07-27 16:21:23.5774 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-07-27 16:21:23.6076 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-07-27 16:21:23.6076 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-27 16:21:23.7214 Info Found 45 configuration items
+2020-08-09 12:08:38.4155 Info Message Template Auto Format enabled
+2020-08-09 12:08:38.6030 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-09 12:08:39.1338 Info Adding target FileTarget(Name=alllogfile)
+2020-08-09 12:08:39.2243 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-09 12:08:39.2421 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-09 12:08:39.2421 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-09 12:08:39.2421 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-09 12:08:39.2755 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-09 12:08:39.2755 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-09 12:08:39.4406 Info Found 45 configuration items
+2020-08-09 12:09:25.0906 Info Message Template Auto Format enabled
+2020-08-09 12:09:25.1242 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-09 12:09:25.3477 Info Adding target FileTarget(Name=alllogfile)
+2020-08-09 12:09:25.3802 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-09 12:09:25.3959 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-09 12:09:25.3959 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-09 12:09:25.3959 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-09 12:09:25.4275 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-09 12:09:25.4343 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-09 12:09:25.5185 Info Found 45 configuration items
+2020-08-09 14:26:34.8783 Info Message Template Auto Format enabled
+2020-08-09 14:26:35.1368 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-09 14:26:35.7127 Info Adding target FileTarget(Name=alllogfile)
+2020-08-09 14:26:35.7768 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-09 14:26:35.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-09 14:26:35.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-09 14:26:35.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-09 14:26:35.8124 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-09 14:26:35.8124 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-09 14:26:35.8697 Info Found 45 configuration items
+2020-08-09 14:45:43.4272 Info Message Template Auto Format enabled
+2020-08-09 14:45:43.5002 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-09 14:45:43.8110 Info Adding target FileTarget(Name=alllogfile)
+2020-08-09 14:45:43.8248 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-09 14:45:43.8385 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-09 14:45:43.8385 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-09 14:45:43.8385 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-09 14:45:43.8592 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-09 14:45:43.8592 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-09 14:45:43.9114 Info Found 45 configuration items
+2020-08-09 14:54:48.8716 Info Message Template Auto Format enabled
+2020-08-09 14:54:48.9174 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-09 14:54:49.1485 Info Adding target FileTarget(Name=alllogfile)
+2020-08-09 14:54:49.1787 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-09 14:54:49.1787 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-09 14:54:49.1787 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-09 14:54:49.1916 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-09 14:54:49.1916 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-09 14:54:49.1916 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-09 14:54:49.2677 Info Found 45 configuration items
+2020-08-09 14:56:24.3470 Info Message Template Auto Format enabled
+2020-08-09 14:56:24.4001 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-09 14:56:24.7737 Info Adding target FileTarget(Name=alllogfile)
+2020-08-09 14:56:24.8296 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-09 14:56:24.8445 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-09 14:56:24.8496 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-09 14:56:24.8496 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-09 14:56:24.8806 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-09 14:56:24.8806 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-09 14:56:24.9995 Info Found 45 configuration items
+2020-08-10 20:42:53.2721 Info Message Template Auto Format enabled
+2020-08-10 20:42:53.3912 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-10 20:42:53.9181 Info Adding target FileTarget(Name=alllogfile)
+2020-08-10 20:42:53.9608 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-10 20:42:53.9757 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-10 20:42:53.9757 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-10 20:42:53.9757 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-10 20:42:53.9992 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-10 20:42:53.9992 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-10 20:42:54.0522 Info Found 45 configuration items
+2020-08-10 20:43:43.3110 Info Message Template Auto Format enabled
+2020-08-10 20:43:43.3354 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-10 20:43:43.7520 Info Adding target FileTarget(Name=alllogfile)
+2020-08-10 20:43:43.7776 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-10 20:43:43.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-10 20:43:43.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-10 20:43:43.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-10 20:43:43.8153 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-10 20:43:43.8153 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-10 20:43:43.8828 Info Found 45 configuration items
+2020-08-11 16:48:19.8203 Info Message Template Auto Format enabled
+2020-08-11 16:48:19.8680 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 16:48:20.1677 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 16:48:20.2057 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 16:48:20.2198 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 16:48:20.2198 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 16:48:20.2249 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 16:48:20.2442 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 16:48:20.2442 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 16:48:20.3365 Info Found 45 configuration items
+2020-08-11 16:51:41.2541 Info Message Template Auto Format enabled
+2020-08-11 16:51:41.3273 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 16:51:41.7379 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 16:51:41.7569 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 16:51:41.7753 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 16:51:41.7753 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 16:51:41.7753 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 16:51:41.7997 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 16:51:41.8019 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 16:51:41.8557 Info Found 45 configuration items
+2020-08-11 16:52:40.6710 Info Message Template Auto Format enabled
+2020-08-11 16:52:40.7874 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 16:52:41.2896 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 16:52:41.3420 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 16:52:41.3565 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 16:52:41.3565 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 16:52:41.3646 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 16:52:41.3850 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 16:52:41.3850 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 16:52:41.4300 Info Found 45 configuration items
+2020-08-11 17:08:37.6793 Info Message Template Auto Format enabled
+2020-08-11 17:08:37.8298 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 17:08:38.3877 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 17:08:38.4362 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 17:08:38.5050 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 17:08:38.5329 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 17:08:38.5329 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 17:08:38.5717 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 17:08:38.5961 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 17:08:38.8632 Info Found 45 configuration items
+2020-08-11 17:23:14.6971 Info Message Template Auto Format enabled
+2020-08-11 17:23:14.8674 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 17:23:15.5266 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 17:23:15.5635 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 17:23:15.5791 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 17:23:15.5825 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 17:23:15.5825 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 17:23:15.6126 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 17:23:15.6133 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 17:23:15.6678 Info Found 45 configuration items
+2020-08-11 18:35:54.6234 Info Message Template Auto Format enabled
+2020-08-11 18:35:54.7124 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 18:35:55.1330 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 18:35:55.1806 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 18:35:55.2027 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 18:35:55.2196 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 18:35:55.2196 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 18:35:55.2538 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 18:35:55.2612 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 18:35:55.5170 Info Found 45 configuration items
+2020-08-11 18:37:37.4808 Info Message Template Auto Format enabled
+2020-08-11 18:37:37.5898 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 18:37:38.2512 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 18:37:38.3995 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 18:37:38.4177 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 18:37:38.4215 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 18:37:38.4215 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 18:37:38.4761 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 18:37:38.5039 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 18:37:38.9415 Info Found 45 configuration items
+2020-08-11 18:43:14.9749 Info Message Template Auto Format enabled
+2020-08-11 18:43:15.0560 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 18:43:15.5562 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 18:43:15.6474 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 18:43:15.6661 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 18:43:15.6661 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 18:43:15.6707 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 18:43:15.7247 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 18:43:15.7247 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 18:43:15.8322 Info Found 45 configuration items
+2020-08-11 18:48:16.7727 Info Message Template Auto Format enabled
+2020-08-11 18:48:16.8616 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 18:48:17.3341 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 18:48:17.3760 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 18:48:17.3998 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 18:48:17.3998 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 18:48:17.3998 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 18:48:17.4394 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 18:48:17.4394 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 18:48:17.5175 Info Found 45 configuration items
+2020-08-11 18:51:22.8253 Info Message Template Auto Format enabled
+2020-08-11 18:51:23.3298 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 18:51:24.2780 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 18:51:24.2997 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 18:51:24.3160 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 18:51:24.3160 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 18:51:24.3160 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 18:51:24.3473 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 18:51:24.3473 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 18:51:24.4027 Info Found 45 configuration items
+2020-08-11 18:55:12.3372 Info Message Template Auto Format enabled
+2020-08-11 18:55:12.3963 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 18:55:12.9087 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 18:55:12.9417 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 18:55:12.9672 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 18:55:12.9672 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 18:55:12.9672 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 18:55:13.0006 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 18:55:13.0006 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 18:55:13.0529 Info Found 45 configuration items
+2020-08-11 20:39:27.9270 Info Message Template Auto Format enabled
+2020-08-11 20:39:28.0194 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 20:39:28.3377 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 20:39:28.3766 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 20:39:28.3944 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 20:39:28.3944 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 20:39:28.3944 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 20:39:28.4182 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 20:39:28.4182 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 20:39:28.4935 Info Found 45 configuration items
+2020-08-11 20:46:42.2799 Info Message Template Auto Format enabled
+2020-08-11 20:46:42.3292 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 20:46:43.1647 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 20:46:43.1866 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 20:46:43.2038 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 20:46:43.2038 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 20:46:43.2038 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 20:46:43.2368 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 20:46:43.2368 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 20:46:43.2789 Info Found 45 configuration items
+2020-08-11 20:49:30.8657 Info Message Template Auto Format enabled
+2020-08-11 20:49:30.9034 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-11 20:49:31.2920 Info Adding target FileTarget(Name=alllogfile)
+2020-08-11 20:49:31.3186 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-11 20:49:31.3413 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-11 20:49:31.3413 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-11 20:49:31.3413 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-11 20:49:31.3701 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-11 20:49:31.3701 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-11 20:49:31.4432 Info Found 45 configuration items
+2020-08-12 14:28:21.1625 Info Message Template Auto Format enabled
+2020-08-12 14:28:21.2712 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-12 14:28:21.5902 Info Adding target FileTarget(Name=alllogfile)
+2020-08-12 14:28:21.6389 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-12 14:28:21.6587 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-12 14:28:21.6587 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-12 14:28:21.6587 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-12 14:28:21.6951 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-12 14:28:21.6951 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-12 14:28:21.7621 Info Found 45 configuration items
+2020-08-12 14:29:27.0593 Info Message Template Auto Format enabled
+2020-08-12 14:29:27.1500 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-12 14:29:27.6707 Info Adding target FileTarget(Name=alllogfile)
+2020-08-12 14:29:27.8745 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-12 14:29:27.9139 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-12 14:29:27.9139 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-12 14:29:27.9139 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-12 14:29:27.9546 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-12 14:29:27.9546 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-12 14:29:28.1750 Info Found 45 configuration items
+2020-08-12 17:49:54.6130 Info Message Template Auto Format enabled
+2020-08-12 17:49:54.6639 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-12 17:49:54.9001 Info Adding target FileTarget(Name=alllogfile)
+2020-08-12 17:49:54.9376 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-12 17:49:54.9519 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-12 17:49:54.9519 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-12 17:49:54.9519 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-12 17:49:54.9760 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-12 17:49:54.9760 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-12 17:49:55.0364 Info Found 45 configuration items
+2020-08-12 19:44:45.1058 Info Message Template Auto Format enabled
+2020-08-12 19:44:45.2279 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-12 19:44:45.6189 Info Adding target FileTarget(Name=alllogfile)
+2020-08-12 19:44:45.7945 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-12 19:44:45.8190 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-12 19:44:45.8190 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-12 19:44:45.8190 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-12 19:44:45.8488 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-12 19:44:45.8488 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-12 19:44:45.9876 Info Found 45 configuration items
+2020-08-12 19:55:46.7539 Info Message Template Auto Format enabled
+2020-08-12 19:55:46.7906 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-12 19:55:47.3041 Info Adding target FileTarget(Name=alllogfile)
+2020-08-12 19:55:47.3752 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-12 19:55:47.3939 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-12 19:55:47.4182 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-12 19:55:47.4294 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-12 19:55:47.4540 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-12 19:55:47.4686 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-12 19:55:47.7121 Info Found 45 configuration items
+2020-08-12 19:57:28.8252 Info Message Template Auto Format enabled
+2020-08-12 19:57:28.8731 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-12 19:57:29.3986 Info Adding target FileTarget(Name=alllogfile)
+2020-08-12 19:57:29.4728 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-12 19:57:29.4950 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-12 19:57:29.4950 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-12 19:57:29.4950 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-12 19:57:29.5272 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-12 19:57:29.5272 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-12 19:57:29.5945 Info Found 45 configuration items
+2020-08-13 16:45:10.3669 Info Message Template Auto Format enabled
+2020-08-13 16:45:10.4557 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-13 16:45:11.2917 Info Adding target FileTarget(Name=alllogfile)
+2020-08-13 16:45:11.3901 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-13 16:45:11.4198 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-13 16:45:11.4198 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-13 16:45:11.4198 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-13 16:45:11.4606 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-13 16:45:11.4672 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-13 16:45:11.6280 Info Found 45 configuration items
+2020-08-13 16:49:28.3504 Info Message Template Auto Format enabled
+2020-08-13 16:49:28.3970 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-13 16:49:28.7638 Info Adding target FileTarget(Name=alllogfile)
+2020-08-13 16:49:28.7937 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-13 16:49:28.8145 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-13 16:49:28.8145 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-13 16:49:28.8145 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-13 16:49:28.8498 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-13 16:49:28.8574 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-13 16:49:28.9867 Info Found 45 configuration items
+2020-08-13 17:34:39.0954 Info Message Template Auto Format enabled
+2020-08-13 17:34:39.1506 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-13 17:34:39.6807 Info Adding target FileTarget(Name=alllogfile)
+2020-08-13 17:34:39.7036 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-13 17:34:39.7206 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-13 17:34:39.7206 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-13 17:34:39.7206 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-13 17:34:39.7464 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-13 17:34:39.7464 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-13 17:34:39.7980 Info Found 45 configuration items
+2020-08-13 19:21:59.7601 Info Message Template Auto Format enabled
+2020-08-13 19:21:59.8387 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-13 19:22:00.3989 Info Adding target FileTarget(Name=alllogfile)
+2020-08-13 19:22:00.4445 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-13 19:22:00.4652 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-13 19:22:00.4695 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-13 19:22:00.4695 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-13 19:22:00.4973 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-13 19:22:00.4973 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-13 19:22:00.5631 Info Found 45 configuration items
+2020-08-13 21:04:20.0272 Info Message Template Auto Format enabled
+2020-08-13 21:04:20.0912 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-13 21:04:20.5932 Info Adding target FileTarget(Name=alllogfile)
+2020-08-13 21:04:20.6958 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-13 21:04:20.7177 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-13 21:04:20.7177 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-13 21:04:20.7177 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-13 21:04:20.7656 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-13 21:04:20.7656 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-13 21:04:20.8998 Info Found 45 configuration items
+2020-08-13 21:28:52.8374 Info Message Template Auto Format enabled
+2020-08-13 21:28:52.9705 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-13 21:28:53.4336 Info Adding target FileTarget(Name=alllogfile)
+2020-08-13 21:28:53.4498 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-13 21:28:53.4676 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-13 21:28:53.4676 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-13 21:28:53.4676 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-13 21:28:53.4945 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-13 21:28:53.4945 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-13 21:28:53.5374 Info Found 45 configuration items
+2020-08-14 00:35:54.2188 Info Message Template Auto Format enabled
+2020-08-14 00:35:54.3949 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 00:35:54.6913 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 00:35:54.7198 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 00:35:54.7324 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 00:35:54.7324 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 00:35:54.7324 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 00:35:54.7516 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 00:35:54.7516 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 00:35:54.8085 Info Found 45 configuration items
+2020-08-14 12:31:13.4201 Info Message Template Auto Format enabled
+2020-08-14 12:31:13.5061 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 12:31:14.0343 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 12:31:14.2314 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 12:31:14.2455 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 12:31:14.2644 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 12:31:14.2644 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 12:31:14.3176 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 12:31:14.3176 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 12:31:14.5105 Info Found 45 configuration items
+2020-08-14 14:23:17.8457 Info Message Template Auto Format enabled
+2020-08-14 14:23:17.9376 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 14:23:18.2808 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 14:23:18.3418 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 14:23:18.3925 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 14:23:18.3925 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 14:23:18.3925 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 14:23:18.4464 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 14:23:18.4464 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 14:23:18.5155 Info Found 45 configuration items
+2020-08-14 18:10:11.2527 Info Message Template Auto Format enabled
+2020-08-14 18:10:11.3217 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 18:10:11.6509 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 18:10:11.6949 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 18:10:11.7178 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 18:10:11.7300 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 18:10:11.7300 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 18:10:11.7534 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 18:10:11.7544 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 18:10:11.8082 Info Found 45 configuration items
+2020-08-14 18:18:08.3763 Info Message Template Auto Format enabled
+2020-08-14 18:18:08.4824 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 18:18:08.6924 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 18:18:08.7513 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 18:18:08.7766 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 18:18:08.7766 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 18:18:08.7766 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 18:18:08.8007 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 18:18:08.8007 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 18:18:08.8461 Info Found 45 configuration items
+2020-08-14 18:18:24.4378 Info Message Template Auto Format enabled
+2020-08-14 18:18:24.4667 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 18:18:24.8826 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 18:18:24.9340 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 18:18:24.9493 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 18:18:24.9493 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 18:18:24.9493 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 18:18:24.9866 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 18:18:24.9866 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 18:18:25.0660 Info Found 45 configuration items
+2020-08-14 18:19:38.4011 Info Message Template Auto Format enabled
+2020-08-14 18:19:38.5822 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 18:19:39.0132 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 18:19:39.0408 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 18:19:39.0614 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 18:19:39.0614 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 18:19:39.0693 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 18:19:39.0983 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 18:19:39.0983 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 18:19:39.1869 Info Found 45 configuration items
+2020-08-14 18:38:09.3854 Info Message Template Auto Format enabled
+2020-08-14 18:38:09.4602 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 18:38:09.7782 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 18:38:09.7985 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 18:38:09.8129 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 18:38:09.8129 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 18:38:09.8129 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 18:38:09.8357 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 18:38:09.8357 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 18:38:09.8824 Info Found 45 configuration items
+2020-08-14 18:46:59.3459 Info Message Template Auto Format enabled
+2020-08-14 18:46:59.3868 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 18:46:59.7442 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 18:46:59.7731 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 18:46:59.7936 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 18:46:59.7936 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 18:46:59.7936 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 18:46:59.8326 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 18:46:59.8326 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 18:47:00.0680 Info Found 45 configuration items
+2020-08-14 19:25:54.1022 Info Message Template Auto Format enabled
+2020-08-14 19:25:54.2736 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 19:25:54.5938 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 19:25:54.6356 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 19:25:54.6499 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 19:25:54.6499 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 19:25:54.6499 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 19:25:54.6729 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 19:25:54.6729 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 19:25:54.7329 Info Found 45 configuration items
+2020-08-14 21:06:42.7998 Info Message Template Auto Format enabled
+2020-08-14 21:06:42.9165 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 21:06:43.3007 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 21:06:43.3549 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 21:06:43.3708 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 21:06:43.3758 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 21:06:43.3758 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 21:06:43.3955 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 21:06:43.3955 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 21:06:43.5048 Info Found 45 configuration items
+2020-08-14 21:13:18.5025 Info Message Template Auto Format enabled
+2020-08-14 21:13:18.5907 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-14 21:13:21.7131 Info Adding target FileTarget(Name=alllogfile)
+2020-08-14 21:13:21.9422 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-14 21:13:22.0023 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-14 21:13:22.0023 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-14 21:13:22.0776 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-14 21:13:22.1981 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-14 21:13:22.1981 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-14 21:13:22.6627 Info Found 45 configuration items
+2020-08-17 20:22:36.2615 Info AppDomain Shutting down. Logger closing...
+2020-08-17 20:22:36.3580 Info Logger has been shut down.
+2020-08-18 15:42:57.6138 Info Message Template Auto Format enabled
+2020-08-18 15:42:57.9457 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-18 15:42:58.9550 Info Adding target FileTarget(Name=alllogfile)
+2020-08-18 15:42:59.2755 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-18 15:42:59.3010 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-18 15:42:59.3151 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-18 15:42:59.3151 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-18 15:42:59.3600 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-18 15:42:59.3767 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-18 15:42:59.7101 Info Found 45 configuration items
+2020-08-18 17:15:17.6832 Info Message Template Auto Format enabled
+2020-08-18 17:15:17.7924 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-18 17:15:18.3260 Info Adding target FileTarget(Name=alllogfile)
+2020-08-18 17:15:18.3678 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-18 17:15:18.3889 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-18 17:15:18.3889 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-18 17:15:18.3889 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-18 17:15:18.4452 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-18 17:15:18.4452 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-18 17:15:18.5649 Info Found 45 configuration items
+2020-08-18 22:58:57.8128 Info Message Template Auto Format enabled
+2020-08-18 22:58:57.8707 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-18 22:58:58.1982 Info Adding target FileTarget(Name=alllogfile)
+2020-08-18 22:58:58.2388 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-18 22:58:58.2388 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-18 22:58:58.2551 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-18 22:58:58.2551 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-18 22:58:58.2744 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-18 22:58:58.2744 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-18 22:58:58.3329 Info Found 45 configuration items
+2020-08-18 23:24:46.5172 Info Message Template Auto Format enabled
+2020-08-18 23:24:46.6233 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-18 23:24:46.9314 Info Adding target FileTarget(Name=alllogfile)
+2020-08-18 23:24:46.9666 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-18 23:24:46.9776 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-18 23:24:46.9776 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-18 23:24:46.9776 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-18 23:24:46.9949 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-18 23:24:46.9949 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-18 23:24:47.0405 Info Found 45 configuration items
+2020-08-20 11:20:35.4091 Info Message Template Auto Format enabled
+2020-08-20 11:20:35.4865 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-20 11:20:36.1021 Info Adding target FileTarget(Name=alllogfile)
+2020-08-20 11:20:36.2235 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-20 11:20:36.2549 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-20 11:20:36.2549 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-20 11:20:36.2702 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-20 11:20:36.3161 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-20 11:20:36.3161 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-20 11:20:36.4333 Info Found 45 configuration items
+2020-08-20 18:15:00.6294 Info Message Template Auto Format enabled
+2020-08-20 18:15:00.7507 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-20 18:15:01.5321 Info Adding target FileTarget(Name=alllogfile)
+2020-08-20 18:15:01.5813 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-20 18:15:01.5997 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-20 18:15:01.6206 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-20 18:15:01.6226 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-20 18:15:01.6867 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-20 18:15:01.6867 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-20 18:15:01.9014 Info Found 45 configuration items
+2020-08-20 22:19:17.3949 Info Message Template Auto Format enabled
+2020-08-20 22:19:17.4769 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-20 22:19:18.0281 Info Adding target FileTarget(Name=alllogfile)
+2020-08-20 22:19:18.0981 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-20 22:19:18.1170 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-20 22:19:18.1170 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-20 22:19:18.1170 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-20 22:19:18.1623 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-20 22:19:18.1623 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-20 22:19:18.2363 Info Found 45 configuration items
+2020-08-23 13:23:17.8194 Info Message Template Auto Format enabled
+2020-08-23 13:23:17.8652 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-23 13:23:18.2685 Info Adding target FileTarget(Name=alllogfile)
+2020-08-23 13:23:18.3115 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-23 13:23:18.3256 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-23 13:23:18.3256 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-23 13:23:18.3256 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-23 13:23:18.3504 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-23 13:23:18.3504 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-23 13:23:18.4040 Info Found 45 configuration items
+2020-08-23 22:18:22.7451 Info Message Template Auto Format enabled
+2020-08-23 22:18:22.8076 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-23 22:18:23.1086 Info Adding target FileTarget(Name=alllogfile)
+2020-08-23 22:18:23.1474 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-23 22:18:23.1625 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-23 22:18:23.1738 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-23 22:18:23.1738 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-23 22:18:23.1966 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-23 22:18:23.1966 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-23 22:18:23.2609 Info Found 45 configuration items
+2020-08-24 13:49:42.0976 Info Message Template Auto Format enabled
+2020-08-24 13:49:42.2347 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 13:49:42.6666 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 13:49:42.7625 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 13:49:42.7975 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 13:49:42.7975 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 13:49:42.7975 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 13:49:42.8400 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 13:49:42.8400 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 13:49:42.9570 Info Found 45 configuration items
+2020-08-24 16:50:53.0502 Info Message Template Auto Format enabled
+2020-08-24 16:50:53.0966 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 16:50:53.3236 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 16:50:53.3515 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 16:50:53.3515 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 16:50:53.3646 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 16:50:53.3646 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 16:50:53.3646 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 16:50:53.3799 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 16:50:53.4273 Info Found 45 configuration items
+2020-08-24 16:57:08.5302 Info Message Template Auto Format enabled
+2020-08-24 16:57:08.6653 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 16:57:09.4408 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 16:57:09.5135 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 16:57:09.5445 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 16:57:09.5445 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 16:57:09.5445 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 16:57:09.5902 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 16:57:09.5919 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 16:57:09.6919 Info Found 45 configuration items
+2020-08-24 19:14:39.1990 Info Message Template Auto Format enabled
+2020-08-24 19:14:39.2474 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 19:14:39.6676 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 19:14:39.7036 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 19:14:39.7187 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 19:14:39.7229 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 19:14:39.7229 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 19:14:39.7439 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 19:14:39.7439 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 19:14:39.8039 Info Found 45 configuration items
+2020-08-24 20:51:34.8262 Info Message Template Auto Format enabled
+2020-08-24 20:51:34.8844 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 20:51:35.3460 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 20:51:35.4600 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 20:51:35.5346 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 20:51:35.5470 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 20:51:35.5470 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 20:51:35.6062 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 20:51:35.6086 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 20:51:35.6935 Info Found 45 configuration items
+2020-08-24 22:59:47.6823 Info Message Template Auto Format enabled
+2020-08-24 22:59:47.7285 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 22:59:48.0200 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 22:59:48.0516 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 22:59:48.0647 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 22:59:48.0647 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 22:59:48.0647 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 22:59:48.0822 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 22:59:48.0822 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 22:59:48.1340 Info Found 45 configuration items
+2020-08-24 23:03:08.8330 Info Message Template Auto Format enabled
+2020-08-24 23:03:08.8919 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 23:03:09.4697 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 23:03:09.5312 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 23:03:09.5493 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 23:03:09.5531 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 23:03:09.5531 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 23:03:09.5761 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 23:03:09.5761 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 23:03:09.6648 Info Found 45 configuration items
+2020-08-24 23:04:30.5660 Info Message Template Auto Format enabled
+2020-08-24 23:04:30.6388 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 23:04:31.1379 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 23:04:31.2786 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 23:04:31.2958 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 23:04:31.3030 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 23:04:31.3030 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 23:04:31.3707 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 23:04:31.3707 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 23:04:31.6830 Info Found 45 configuration items
+2020-08-24 23:07:58.1200 Info Message Template Auto Format enabled
+2020-08-24 23:07:58.2104 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 23:07:58.7766 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 23:07:58.9596 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 23:07:58.9951 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 23:07:59.0041 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 23:07:59.0213 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 23:07:59.0536 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 23:07:59.0536 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 23:07:59.1262 Info Found 45 configuration items
+2020-08-24 23:10:44.4933 Info Message Template Auto Format enabled
+2020-08-24 23:10:44.5777 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 23:10:44.8831 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 23:10:44.9215 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 23:10:44.9363 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 23:10:44.9363 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 23:10:44.9363 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 23:10:44.9693 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 23:10:44.9693 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 23:10:45.0563 Info Found 45 configuration items
+2020-08-24 23:53:50.5245 Info Message Template Auto Format enabled
+2020-08-24 23:53:50.6252 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-24 23:53:51.0420 Info Adding target FileTarget(Name=alllogfile)
+2020-08-24 23:53:51.0668 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-24 23:53:51.0814 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-24 23:53:51.0814 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-24 23:53:51.0814 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-24 23:53:51.1160 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-24 23:53:51.1160 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-24 23:53:51.1792 Info Found 45 configuration items
+2020-08-25 10:18:19.8109 Info Message Template Auto Format enabled
+2020-08-25 10:18:19.8783 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 10:18:20.1857 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 10:18:20.2259 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 10:18:20.2405 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 10:18:20.2405 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 10:18:20.2405 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 10:18:20.2629 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 10:18:20.2629 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 10:18:20.3181 Info Found 45 configuration items
+2020-08-25 10:22:53.0245 Info Message Template Auto Format enabled
+2020-08-25 10:22:53.1359 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 10:22:53.8103 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 10:22:53.8696 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 10:22:53.8965 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 10:22:53.9021 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 10:22:53.9021 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 10:22:53.9772 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 10:22:53.9935 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 10:22:54.0784 Info Found 45 configuration items
+2020-08-25 11:00:34.2363 Info Message Template Auto Format enabled
+2020-08-25 11:00:34.2713 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 11:00:34.5127 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 11:00:34.5309 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 11:00:34.5480 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 11:00:34.5480 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 11:00:34.5480 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 11:00:34.5771 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 11:00:34.5771 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 11:00:34.6342 Info Found 45 configuration items
+2020-08-25 11:05:09.2023 Info Message Template Auto Format enabled
+2020-08-25 11:05:09.3062 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 11:05:09.5458 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 11:05:09.5748 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 11:05:09.5902 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 11:05:09.5902 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 11:05:09.5902 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 11:05:09.6192 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 11:05:09.6192 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 11:05:09.6602 Info Found 45 configuration items
+2020-08-25 11:23:25.1400 Info Message Template Auto Format enabled
+2020-08-25 11:23:25.2250 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 11:23:25.8644 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 11:23:25.9140 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 11:23:25.9434 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 11:23:25.9434 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 11:23:25.9434 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 11:23:25.9775 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 11:23:25.9775 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 11:23:26.0560 Info Found 45 configuration items
+2020-08-25 11:26:32.8791 Info Message Template Auto Format enabled
+2020-08-25 11:26:33.0947 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 11:26:33.7996 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 11:26:33.8198 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 11:26:33.8348 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 11:26:33.8348 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 11:26:33.8484 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 11:26:33.8887 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 11:26:33.8887 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 11:26:34.0694 Info Found 45 configuration items
+2020-08-25 13:48:23.7948 Info Message Template Auto Format enabled
+2020-08-25 13:48:23.8434 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 13:48:24.1872 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 13:48:24.2325 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 13:48:24.2508 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 13:48:24.2508 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 13:48:24.2561 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 13:48:24.2809 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 13:48:24.2809 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 13:48:24.3522 Info Found 45 configuration items
+2020-08-25 13:50:34.5439 Info Message Template Auto Format enabled
+2020-08-25 13:50:34.6916 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 13:50:35.0626 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 13:50:35.1051 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 13:50:35.1251 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 13:50:35.1251 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 13:50:35.1307 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 13:50:35.1599 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 13:50:35.1626 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 13:50:35.2265 Info Found 45 configuration items
+2020-08-25 13:58:05.0015 Info Message Template Auto Format enabled
+2020-08-25 13:58:05.1311 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 13:58:05.4285 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 13:58:05.4589 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 13:58:05.4812 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 13:58:05.4812 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 13:58:05.4812 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 13:58:05.5208 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 13:58:05.5379 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 13:58:05.7125 Info Found 45 configuration items
+2020-08-25 13:59:13.8087 Info Message Template Auto Format enabled
+2020-08-25 13:59:13.9740 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 13:59:14.3158 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 13:59:14.3450 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 13:59:14.3662 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 13:59:14.3826 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 13:59:14.3826 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 13:59:14.4230 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 13:59:14.4230 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 13:59:14.5239 Info Found 45 configuration items
+2020-08-25 14:02:43.9219 Info Message Template Auto Format enabled
+2020-08-25 14:02:43.9558 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 14:02:44.5212 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 14:02:44.5390 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 14:02:44.5555 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 14:02:44.5555 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 14:02:44.5555 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 14:02:44.6057 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 14:02:44.6057 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 14:02:44.6513 Info Found 45 configuration items
+2020-08-25 15:48:40.1314 Info Message Template Auto Format enabled
+2020-08-25 15:48:40.1697 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 15:48:40.3809 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 15:48:40.4058 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 15:48:40.4167 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 15:48:40.4167 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 15:48:40.4167 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 15:48:40.4325 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 15:48:40.4325 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 15:48:40.4754 Info Found 45 configuration items
+2020-08-25 15:54:01.0547 Info Message Template Auto Format enabled
+2020-08-25 15:54:01.0905 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 15:54:01.4578 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 15:54:01.4762 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 15:54:01.4902 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 15:54:01.4902 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 15:54:01.4902 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 15:54:01.5167 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 15:54:01.5167 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 15:54:01.5610 Info Found 45 configuration items
+2020-08-25 15:54:42.0071 Info Message Template Auto Format enabled
+2020-08-25 15:54:42.0571 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 15:54:42.3379 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 15:54:42.3703 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 15:54:42.3865 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 15:54:42.3865 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 15:54:42.3911 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 15:54:42.4085 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 15:54:42.4085 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 15:54:42.4756 Info Found 45 configuration items
+2020-08-25 15:56:07.9620 Info Message Template Auto Format enabled
+2020-08-25 15:56:08.0098 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 15:56:08.6536 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 15:56:08.7731 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 15:56:08.7886 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 15:56:08.8044 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 15:56:08.8044 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 15:56:08.8591 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 15:56:08.8828 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 15:56:09.1440 Info Found 45 configuration items
+2020-08-25 16:54:51.4764 Info Message Template Auto Format enabled
+2020-08-25 16:54:51.5973 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 16:54:52.5773 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 16:54:52.7739 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 16:54:52.7949 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 16:54:52.8303 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 16:54:52.8303 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 16:54:52.8857 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 16:54:52.9748 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 16:54:53.5090 Info Found 45 configuration items
+2020-08-25 16:58:49.8485 Info Message Template Auto Format enabled
+2020-08-25 16:58:50.1494 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-25 16:58:51.1001 Info Adding target FileTarget(Name=alllogfile)
+2020-08-25 16:58:51.1679 Info Adding target FileTarget(Name=ownFile-web)
+2020-08-25 16:58:51.1886 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-08-25 16:58:51.2072 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-08-25 16:58:51.2191 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-08-25 16:58:51.2685 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-08-25 16:58:51.2685 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-25 16:58:51.4446 Info Found 45 configuration items
+2020-09-06 16:57:45.3985 Info Message Template Auto Format enabled
+2020-09-06 16:57:45.4537 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 16:57:45.8671 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 16:57:45.9369 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 16:57:45.9612 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 16:57:45.9612 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 16:57:45.9612 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 16:57:45.9951 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 16:57:45.9951 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 16:57:46.0794 Info Found 45 configuration items
+2020-09-06 17:00:39.8101 Info Message Template Auto Format enabled
+2020-09-06 17:00:39.8429 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 17:00:40.0583 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 17:00:40.1097 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 17:00:40.1308 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 17:00:40.1362 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 17:00:40.1362 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 17:00:40.1633 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 17:00:40.1633 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 17:00:40.2119 Info Found 45 configuration items
+2020-09-06 17:07:11.6423 Info Message Template Auto Format enabled
+2020-09-06 17:07:11.7349 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 17:07:11.9739 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 17:07:12.0007 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 17:07:12.0126 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 17:07:12.0126 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 17:07:12.0126 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 17:07:12.0303 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 17:07:12.0303 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 17:07:12.0670 Info Found 45 configuration items
+2020-09-06 17:12:20.0418 Info Message Template Auto Format enabled
+2020-09-06 17:12:20.1317 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 17:12:20.4787 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 17:12:20.5330 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 17:12:20.5621 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 17:12:20.5621 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 17:12:20.5820 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 17:12:20.6131 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 17:12:20.6131 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 17:12:20.6916 Info Found 45 configuration items
+2020-09-06 17:39:15.8930 Info Message Template Auto Format enabled
+2020-09-06 17:39:15.9411 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 17:39:16.1644 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 17:39:16.1957 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 17:39:16.2059 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 17:39:16.2059 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 17:39:16.2059 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 17:39:16.2232 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 17:39:16.2232 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 17:39:16.2814 Info Found 45 configuration items
+2020-09-06 18:16:32.7491 Info Message Template Auto Format enabled
+2020-09-06 18:16:32.7816 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 18:16:33.0490 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 18:16:33.1029 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 18:16:33.1260 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 18:16:33.1260 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 18:16:33.1260 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 18:16:33.1487 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 18:16:33.1487 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 18:16:33.1944 Info Found 45 configuration items
+2020-09-06 21:08:26.1751 Info Message Template Auto Format enabled
+2020-09-06 21:08:26.2314 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 21:08:26.5385 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 21:08:26.5866 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 21:08:26.6038 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 21:08:26.6038 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 21:08:26.6038 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 21:08:26.6441 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 21:08:26.6441 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 21:08:26.7358 Info Found 45 configuration items
+2020-09-06 21:10:45.5495 Info Message Template Auto Format enabled
+2020-09-06 21:10:45.7860 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 21:10:46.0818 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 21:10:46.1003 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 21:10:46.1142 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 21:10:46.1142 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 21:10:46.1142 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 21:10:46.1346 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 21:10:46.1353 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 21:10:46.1840 Info Found 45 configuration items
+2020-09-06 21:13:53.1049 Info Message Template Auto Format enabled
+2020-09-06 21:13:53.1242 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 21:13:53.2117 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 21:13:53.2221 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 21:13:53.2307 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 21:13:53.2307 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 21:13:53.2307 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 21:13:53.2307 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 21:13:53.2307 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 21:13:53.2674 Info Found 45 configuration items
+2020-09-06 21:14:43.5945 Info Message Template Auto Format enabled
+2020-09-06 21:14:43.6330 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 21:14:44.0263 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 21:14:44.1411 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 21:14:44.1568 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 21:14:44.1568 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 21:14:44.1568 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 21:14:44.1863 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 21:14:44.1863 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 21:14:44.2655 Info Found 45 configuration items
+2020-09-06 21:20:27.9889 Info Message Template Auto Format enabled
+2020-09-06 21:20:28.0806 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-06 21:20:28.6957 Info Adding target FileTarget(Name=alllogfile)
+2020-09-06 21:20:28.7264 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-06 21:20:28.7504 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-06 21:20:28.7634 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-06 21:20:28.7634 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-06 21:20:28.8041 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-06 21:20:28.8078 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-06 21:20:28.8622 Info Found 45 configuration items
+2020-09-08 16:01:59.4121 Info Message Template Auto Format enabled
+2020-09-08 16:01:59.4587 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-08 16:01:59.7641 Info Adding target FileTarget(Name=alllogfile)
+2020-09-08 16:01:59.8045 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-08 16:01:59.8045 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-08 16:01:59.8220 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-08 16:01:59.8220 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-08 16:01:59.8559 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-08 16:01:59.8559 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-08 16:01:59.9400 Info Found 45 configuration items
+2020-09-08 16:02:27.8796 Info Message Template Auto Format enabled
+2020-09-08 16:02:27.9929 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-08 16:02:28.3055 Info Adding target FileTarget(Name=alllogfile)
+2020-09-08 16:02:28.3857 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-08 16:02:28.4019 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-08 16:02:28.4019 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-08 16:02:28.4019 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-08 16:02:28.4311 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-08 16:02:28.4311 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-08 16:02:28.4816 Info Found 45 configuration items
+2020-09-08 16:02:54.4312 Info Message Template Auto Format enabled
+2020-09-08 16:02:54.5198 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-08 16:02:54.7647 Info Adding target FileTarget(Name=alllogfile)
+2020-09-08 16:02:54.7916 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-08 16:02:54.8060 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-08 16:02:54.8060 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-08 16:02:54.8060 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-08 16:02:54.8331 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-08 16:02:54.8426 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-08 16:02:54.9313 Info Found 45 configuration items
+2020-09-08 16:04:01.1571 Info Message Template Auto Format enabled
+2020-09-08 16:04:01.4318 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-08 16:04:02.4719 Info Adding target FileTarget(Name=alllogfile)
+2020-09-08 16:04:02.5945 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-08 16:04:02.6169 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-08 16:04:02.6331 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-08 16:04:02.6331 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-08 16:04:02.7232 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-08 16:04:02.7697 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-08 16:04:03.2294 Info Found 45 configuration items
+2020-09-08 16:13:41.3785 Info Message Template Auto Format enabled
+2020-09-08 16:13:41.5485 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-08 16:13:42.4472 Info Adding target FileTarget(Name=alllogfile)
+2020-09-08 16:13:42.6523 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-08 16:13:42.7699 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-08 16:13:42.7735 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-08 16:13:42.7735 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-08 16:13:42.8021 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-08 16:13:42.8021 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-08 16:13:42.8710 Info Found 45 configuration items
+2020-09-10 12:54:56.6396 Info Message Template Auto Format enabled
+2020-09-10 12:54:56.7839 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-10 12:54:57.6372 Info Adding target FileTarget(Name=alllogfile)
+2020-09-10 12:54:57.6796 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-10 12:54:57.6953 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-10 12:54:57.6953 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-10 12:54:57.6953 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-10 12:54:57.7216 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-10 12:54:57.7216 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-10 12:54:57.8324 Info Found 45 configuration items
+2020-09-10 13:06:21.0648 Info Message Template Auto Format enabled
+2020-09-10 13:06:21.1283 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-10 13:06:21.3829 Info Adding target FileTarget(Name=alllogfile)
+2020-09-10 13:06:21.4054 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-10 13:06:21.4054 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-10 13:06:21.4054 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-10 13:06:21.4054 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-10 13:06:21.4259 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-10 13:06:21.4259 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-10 13:06:21.4596 Info Found 45 configuration items
+2020-09-10 13:07:06.7868 Info Message Template Auto Format enabled
+2020-09-10 13:07:06.8267 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-10 13:07:07.1346 Info Adding target FileTarget(Name=alllogfile)
+2020-09-10 13:07:07.1533 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-10 13:07:07.1662 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-10 13:07:07.1662 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-10 13:07:07.1705 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-10 13:07:07.1897 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-10 13:07:07.1897 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-10 13:07:07.2408 Info Found 45 configuration items
+2020-09-11 12:49:26.4324 Info Message Template Auto Format enabled
+2020-09-11 12:49:26.9720 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 12:49:28.1768 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 12:49:28.3181 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 12:49:28.3454 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 12:49:28.3522 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 12:49:28.3522 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 12:49:28.3836 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 12:49:28.3836 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 12:49:28.7523 Info Found 45 configuration items
+2020-09-11 12:52:38.8190 Info Message Template Auto Format enabled
+2020-09-11 12:52:38.9135 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 12:52:39.7320 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 12:52:39.8658 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 12:52:39.9052 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 12:52:39.9259 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 12:52:39.9331 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 12:52:39.9711 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 12:52:39.9711 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 12:52:40.0267 Info Found 45 configuration items
+2020-09-11 13:09:54.5065 Info Message Template Auto Format enabled
+2020-09-11 13:09:54.5867 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 13:09:55.2595 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 13:09:55.3574 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 13:09:55.3886 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 13:09:55.3939 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 13:09:55.4078 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 13:09:55.4597 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 13:09:55.4597 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 13:09:55.6713 Info Found 45 configuration items
+2020-09-11 13:13:41.8307 Info Message Template Auto Format enabled
+2020-09-11 13:13:41.8874 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 13:13:42.7404 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 13:13:42.8642 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 13:13:42.9582 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 13:13:43.0401 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 13:13:43.1221 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 13:13:43.2390 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 13:13:43.3100 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 13:13:43.5653 Info Found 45 configuration items
+2020-09-11 13:15:20.2573 Info Message Template Auto Format enabled
+2020-09-11 13:15:20.4061 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 13:15:20.9065 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 13:15:20.9705 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 13:15:20.9901 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 13:15:20.9901 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 13:15:20.9901 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 13:15:21.0253 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 13:15:21.0253 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 13:15:21.1882 Info Found 45 configuration items
+2020-09-11 13:16:35.6577 Info Message Template Auto Format enabled
+2020-09-11 13:16:35.7171 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 13:16:36.0805 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 13:16:36.1582 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 13:16:36.1871 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 13:16:36.2063 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 13:16:36.2063 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 13:16:36.2584 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 13:16:36.2584 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 13:16:36.3847 Info Found 45 configuration items
+2020-09-11 13:18:36.1270 Info Message Template Auto Format enabled
+2020-09-11 13:18:36.2273 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 13:18:36.8003 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 13:18:36.8598 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 13:18:36.9134 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 13:18:36.9418 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 13:18:36.9566 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 13:18:36.9834 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 13:18:36.9965 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 13:18:37.1007 Info Found 45 configuration items
+2020-09-11 13:23:17.4142 Info Message Template Auto Format enabled
+2020-09-11 13:23:17.6450 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 13:23:17.9932 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 13:23:18.0327 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 13:23:18.0586 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 13:23:18.0586 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 13:23:18.0586 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 13:23:18.0886 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 13:23:18.0886 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 13:23:18.1488 Info Found 45 configuration items
+2020-09-11 13:24:50.0595 Info Message Template Auto Format enabled
+2020-09-11 13:24:50.1480 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 13:24:50.4151 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 13:24:50.4507 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 13:24:50.4766 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 13:24:50.4766 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 13:24:50.4766 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 13:24:50.5109 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 13:24:50.5109 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 13:24:50.5612 Info Found 45 configuration items
+2020-09-11 13:35:24.4148 Info Message Template Auto Format enabled
+2020-09-11 13:35:24.4653 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 13:35:24.7317 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 13:35:24.7593 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 13:35:24.7766 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 13:35:24.7810 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 13:35:24.7810 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 13:35:24.8087 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 13:35:24.8110 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 13:35:24.8529 Info Found 45 configuration items
+2020-09-11 13:38:08.7222 Info Message Template Auto Format enabled
+2020-09-11 13:38:08.7701 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 13:38:09.3061 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 13:38:09.3419 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 13:38:09.3714 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 13:38:09.3762 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 13:38:09.3762 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 13:38:09.4165 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 13:38:09.4165 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 13:38:09.5292 Info Found 45 configuration items
+2020-09-11 13:39:34.5361 Info Message Template Auto Format enabled
+2020-09-11 13:39:34.6157 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-11 13:39:34.9661 Info Adding target FileTarget(Name=alllogfile)
+2020-09-11 13:39:34.9908 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-11 13:39:35.0168 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-11 13:39:35.0168 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-11 13:39:35.0342 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-11 13:39:35.0701 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-11 13:39:35.0701 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-11 13:39:35.1248 Info Found 45 configuration items
+2020-09-13 00:30:37.4146 Info Message Template Auto Format enabled
+2020-09-13 00:30:37.4787 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-13 00:30:39.3463 Info Adding target FileTarget(Name=alllogfile)
+2020-09-13 00:30:39.5771 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-13 00:30:39.6126 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-13 00:30:39.6613 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-13 00:30:39.7136 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-13 00:30:39.7688 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-13 00:30:39.7990 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-13 00:30:40.1645 Info Found 45 configuration items
+2020-09-13 01:08:35.3644 Info Message Template Auto Format enabled
+2020-09-13 01:08:35.4978 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-13 01:08:35.8344 Info Adding target FileTarget(Name=alllogfile)
+2020-09-13 01:08:35.8519 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-13 01:08:35.8672 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-13 01:08:35.8672 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-13 01:08:35.8777 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-13 01:08:35.9041 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-13 01:08:35.9083 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-13 01:08:35.9613 Info Found 45 configuration items
+2020-09-13 01:18:27.3115 Info Message Template Auto Format enabled
+2020-09-13 01:18:27.3403 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-13 01:18:27.5046 Info Adding target FileTarget(Name=alllogfile)
+2020-09-13 01:18:27.5205 Info Adding target FileTarget(Name=ownFile-web)
+2020-09-13 01:18:27.5424 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2020-09-13 01:18:27.5424 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2020-09-13 01:18:27.5424 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2020-09-13 01:18:27.5676 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2020-09-13 01:18:27.5676 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-09-13 01:18:27.6070 Info Found 45 configuration items
+2021-01-07 16:22:49.9824 Info Message Template Auto Format enabled
+2021-01-07 16:22:50.2969 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-07 16:22:51.4203 Info Adding target FileTarget(Name=alllogfile)
+2021-01-07 16:22:51.6659 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-07 16:22:51.6943 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-07 16:22:51.7255 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-07 16:22:51.7255 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-07 16:22:51.7586 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-07 16:22:51.7742 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-07 16:22:52.0775 Info Found 45 configuration items
+2021-01-07 20:50:13.1289 Info Message Template Auto Format enabled
+2021-01-07 20:50:13.3333 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-07 20:50:13.6347 Info Adding target FileTarget(Name=alllogfile)
+2021-01-07 20:50:13.6638 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-07 20:50:13.6853 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-07 20:50:13.6853 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-07 20:50:13.6853 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-07 20:50:13.7225 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-07 20:50:13.7225 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-07 20:50:13.8179 Info Found 45 configuration items
+2021-01-07 21:27:39.6493 Info Message Template Auto Format enabled
+2021-01-07 21:27:39.6871 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-07 21:27:40.3268 Info Adding target FileTarget(Name=alllogfile)
+2021-01-07 21:27:40.3474 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-07 21:27:40.3684 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-07 21:27:40.3720 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-07 21:27:40.3720 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-07 21:27:40.3949 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-07 21:27:40.3949 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-07 21:27:40.4403 Info Found 45 configuration items
+2021-01-07 21:30:18.6035 Info Message Template Auto Format enabled
+2021-01-07 21:30:18.6459 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-07 21:30:19.0616 Info Adding target FileTarget(Name=alllogfile)
+2021-01-07 21:30:19.0935 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-07 21:30:19.1132 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-07 21:30:19.1132 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-07 21:30:19.1241 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-07 21:30:19.1515 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-07 21:30:19.1537 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-07 21:30:19.2449 Info Found 45 configuration items
+2021-01-07 21:40:02.9075 Info Message Template Auto Format enabled
+2021-01-07 21:40:02.9572 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-07 21:40:03.4193 Info Adding target FileTarget(Name=alllogfile)
+2021-01-07 21:40:03.5050 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-07 21:40:03.5381 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-07 21:40:03.5685 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-07 21:40:03.5685 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-07 21:40:03.6083 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-07 21:40:03.6121 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-07 21:40:03.7082 Info Found 45 configuration items
+2021-01-07 22:04:14.1946 Info Message Template Auto Format enabled
+2021-01-07 22:04:14.2555 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-07 22:04:14.5384 Info Adding target FileTarget(Name=alllogfile)
+2021-01-07 22:04:14.5640 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-07 22:04:14.5842 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-07 22:04:14.5942 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-07 22:04:14.5942 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-07 22:04:14.6232 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-07 22:04:14.6232 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-07 22:04:14.6910 Info Found 45 configuration items
+2021-01-07 22:21:37.3767 Info Message Template Auto Format enabled
+2021-01-07 22:21:37.4332 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-07 22:21:37.7429 Info Adding target FileTarget(Name=alllogfile)
+2021-01-07 22:21:37.7700 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-07 22:21:37.7959 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-07 22:21:37.7959 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-07 22:21:37.7959 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-07 22:21:37.8315 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-07 22:21:37.8315 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-07 22:21:37.8817 Info Found 45 configuration items
+2021-01-08 14:22:29.5148 Info Message Template Auto Format enabled
+2021-01-08 14:22:29.5643 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-08 14:22:29.9171 Info Adding target FileTarget(Name=alllogfile)
+2021-01-08 14:22:29.9761 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-08 14:22:29.9997 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-08 14:22:30.0050 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-08 14:22:30.0050 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-08 14:22:30.0416 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-08 14:22:30.0416 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-08 14:22:30.1178 Info Found 45 configuration items
+2021-01-08 14:33:19.9650 Info Message Template Auto Format enabled
+2021-01-08 14:33:19.9994 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-08 14:33:20.2517 Info Adding target FileTarget(Name=alllogfile)
+2021-01-08 14:33:20.2738 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-08 14:33:20.2918 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-08 14:33:20.2918 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-08 14:33:20.3011 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-08 14:33:20.3259 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-08 14:33:20.3259 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-08 14:33:20.3854 Info Found 45 configuration items
+2021-01-08 15:33:54.1702 Info Message Template Auto Format enabled
+2021-01-08 15:33:54.2248 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-08 15:33:54.4406 Info Adding target FileTarget(Name=alllogfile)
+2021-01-08 15:33:54.4608 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-08 15:33:54.4792 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-08 15:33:54.4846 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-08 15:33:54.4846 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-08 15:33:54.5026 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-08 15:33:54.5026 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-08 15:33:54.5493 Info Found 45 configuration items
+2021-01-08 15:47:04.2060 Info Message Template Auto Format enabled
+2021-01-08 15:47:04.2477 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-08 15:47:04.6279 Info Adding target FileTarget(Name=alllogfile)
+2021-01-08 15:47:04.6620 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-08 15:47:04.6829 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-08 15:47:04.6829 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-08 15:47:04.6829 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-08 15:47:04.7156 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-08 15:47:04.7156 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-08 15:47:04.7705 Info Found 45 configuration items
+2021-01-08 18:15:03.5304 Info Message Template Auto Format enabled
+2021-01-08 18:15:03.5540 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-08 18:15:03.7786 Info Adding target FileTarget(Name=alllogfile)
+2021-01-08 18:15:03.8004 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-08 18:15:03.8004 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-08 18:15:03.8154 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-08 18:15:03.8154 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-08 18:15:03.8347 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-08 18:15:03.8347 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-08 18:15:03.8857 Info Found 45 configuration items
+2021-01-08 18:19:17.8877 Info Message Template Auto Format enabled
+2021-01-08 18:19:17.9177 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-08 18:19:18.1684 Info Adding target FileTarget(Name=alllogfile)
+2021-01-08 18:19:18.1899 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-08 18:19:18.2079 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-08 18:19:18.2079 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-08 18:19:18.2206 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-08 18:19:18.2467 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-08 18:19:18.2467 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-08 18:19:18.3018 Info Found 45 configuration items
+2021-01-08 18:25:08.5256 Info Message Template Auto Format enabled
+2021-01-08 18:25:08.5766 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-08 18:25:09.0720 Info Adding target FileTarget(Name=alllogfile)
+2021-01-08 18:25:09.1313 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-08 18:25:09.1568 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-08 18:25:09.1742 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-08 18:25:09.1835 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-08 18:25:09.2607 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-08 18:25:09.2607 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-08 18:25:09.3428 Info Found 45 configuration items
+2021-01-08 19:04:28.0640 Info Message Template Auto Format enabled
+2021-01-08 19:04:28.0965 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-08 19:04:28.4097 Info Adding target FileTarget(Name=alllogfile)
+2021-01-08 19:04:28.4453 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-08 19:04:28.4804 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-08 19:04:28.4804 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-08 19:04:28.4972 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-08 19:04:28.5331 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-08 19:04:28.5331 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-08 19:04:28.6221 Info Found 45 configuration items
+2021-01-11 13:35:21.7711 Info Message Template Auto Format enabled
+2021-01-11 13:35:21.9541 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-11 13:35:23.5241 Info Adding target FileTarget(Name=alllogfile)
+2021-01-11 13:35:23.9283 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-11 13:35:24.1953 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-11 13:35:24.1953 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-11 13:35:24.1953 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-11 13:35:24.2276 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-11 13:35:24.2276 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-11 13:35:24.7601 Info Found 45 configuration items
+2021-01-12 18:53:19.5939 Info Message Template Auto Format enabled
+2021-01-12 18:53:21.1547 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-12 18:53:23.8188 Info Adding target FileTarget(Name=alllogfile)
+2021-01-12 18:53:24.3429 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-12 18:53:24.4182 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-12 18:53:24.4226 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-12 18:53:24.4226 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-12 18:53:24.4461 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-12 18:53:24.4461 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-12 18:53:25.5368 Info Found 45 configuration items
+2021-01-12 18:55:17.5527 Info Shutdown() called. Logger closing...
+2021-01-12 18:55:17.5527 Info Closing old configuration.
+2021-01-12 18:55:17.5793 Info Logger has been closed down.
+2021-01-12 18:55:39.5971 Info Message Template Auto Format enabled
+2021-01-12 18:55:39.6272 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-12 18:55:39.8106 Info Adding target FileTarget(Name=alllogfile)
+2021-01-12 18:55:39.8291 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-12 18:55:39.8447 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-12 18:55:39.8506 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-12 18:55:39.8506 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-12 18:55:39.8746 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-12 18:55:39.8746 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-12 18:55:39.9320 Info Found 45 configuration items
+2021-01-12 18:59:01.9332 Info Shutdown() called. Logger closing...
+2021-01-12 18:59:01.9332 Info Closing old configuration.
+2021-01-12 18:59:01.9588 Info Logger has been closed down.
+2021-01-12 19:23:03.2286 Info Message Template Auto Format enabled
+2021-01-12 19:23:03.2622 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-12 19:23:03.4372 Info Adding target FileTarget(Name=alllogfile)
+2021-01-12 19:23:03.4537 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-12 19:23:03.4670 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-12 19:23:03.4670 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-12 19:23:03.4670 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-12 19:23:03.4864 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-12 19:23:03.4864 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-12 19:23:03.5290 Info Found 45 configuration items
+2021-01-12 19:40:42.8594 Info Message Template Auto Format enabled
+2021-01-12 19:40:42.8931 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-12 19:40:43.1105 Info Adding target FileTarget(Name=alllogfile)
+2021-01-12 19:40:43.1279 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-12 19:40:43.1450 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-12 19:40:43.1519 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-12 19:40:43.1519 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-12 19:40:43.1764 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-12 19:40:43.1764 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-12 19:40:43.2420 Info Found 45 configuration items
+2021-01-12 20:06:52.0021 Info Message Template Auto Format enabled
+2021-01-12 20:06:52.0638 Info Loading assembly: NLog.Web.AspNetCore
+2021-01-12 20:06:52.2411 Info Adding target FileTarget(Name=alllogfile)
+2021-01-12 20:06:52.2552 Info Adding target FileTarget(Name=ownFile-web)
+2021-01-12 20:06:52.2655 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\alllogfile' not found for logging rule: *.
+2021-01-12 20:06:52.2655 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\infologfile' not found for logging rule: Microsoft.*.
+2021-01-12 20:06:52.2655 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target '.\logs\debuglogfile' not found for logging rule: *.
+2021-01-12 20:06:52.2871 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: alllogfile
+2021-01-12 20:06:52.2871 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-01-12 20:06:52.4109 Info Found 45 configuration items

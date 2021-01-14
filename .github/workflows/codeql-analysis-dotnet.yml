@@ -38,7 +38,7 @@ jobs:
         dotnet-version: 2.1
         
     - name: Install dependencies     
-      run: dotnet restore "./vacation/Vacations.API/Vacations.API.csproj"
+      run: dotnet restore "./Vacations.API/Vacations.API.csproj"
     
     #- name: Build web proj
     #  run: dotnet build "./CCMWeb/CCM/CCM.WEB/ccm.web.csproj" --configuration Release --no-restore
